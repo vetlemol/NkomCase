@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import ApplicationsList from "./ApplicationsList";
+import NewApplication from "./NewApplication";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [applications, setApplications] = useState([]);
+
+    // Hent søknader fra API
+    const fetchApplications = () => {
+        fetch("http://localhost:7262/api/applications")
+            .then(res => res.json())
+            .then(setApplications)
+            .catch(console.error);
+    };
+
+    useEffect(() => {
+        fetchApplications();
+    }, []);
+
+    // Hent liste på nytt når søknad sendes
+    const handleSubmitted = () => {
+        fetchApplications();
+    };
+
+    return (
+        <div>
+            <h1>Oversikt</h1>
+            <NewApplication onSubmitted={handleSubmitted} />
+            <ApplicationsList applications={applications} /> 
+        </div>
+    );
 }
 
 export default App;

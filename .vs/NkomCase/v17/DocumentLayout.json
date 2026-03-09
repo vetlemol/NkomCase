@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{181FE9AA-5BBA-4F88-88EF-59D3FCCC7940}|NkomCase\\NkomCase.csproj|c:\\users\\vetle\\source\\repos\\nkomcase\\nkomcase\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{181FE9AA-5BBA-4F88-88EF-59D3FCCC7940}|NkomCase\\NkomCase.csproj|solutionrelative:nkomcase\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181FE9AA-5BBA-4F88-88EF-59D3FCCC7940}|NkomCase\\NkomCase.csproj|c:\\users\\vetle\\source\\repos\\nkomcase\\nkomcase\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{181FE9AA-5BBA-4F88-88EF-59D3FCCC7940}|NkomCase\\NkomCase.csproj|solutionrelative:nkomcase\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\vetle\\source\\repos\\NkomCase\\NkomCase\\local.settings.json",
+              "RelativeDocumentMoniker": "NkomCase\\local.settings.json",
+              "ToolTip": "C:\\Users\\vetle\\source\\repos\\NkomCase\\NkomCase\\local.settings.json",
+              "RelativeToolTip": "NkomCase\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-09T23:22:38.697Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "NkomCase\\Function1.cs",
               "ToolTip": "C:\\Users\\vetle\\source\\repos\\NkomCase\\NkomCase\\Function1.cs",
               "RelativeToolTip": "NkomCase\\Function1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T23:08:25.518Z",
               "EditorCaption": ""
